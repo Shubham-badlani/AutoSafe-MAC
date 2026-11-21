@@ -1,0 +1,12 @@
+numpy
+matplotlib
+cocotb==1.9.2
+# live demo
+ultralytics
+opencv-python
+openai-whisper
+sounddevice
+# BharatGen (optional, large download)
+transformers
+torch
+accelerate

@@ -1,0 +1,142 @@
+[
+ {
+  "bug": 0,
+  "n": 300,
+  "mismatches": 0,
+  "first_detect": null,
+  "unsafe": 1,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "random"
+ },
+ {
+  "bug": 0,
+  "n": 300,
+  "mismatches": 0,
+  "first_detect": null,
+  "unsafe": 1,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "guided"
+ },
+ {
+  "bug": 1,
+  "n": 300,
+  "mismatches": 31,
+  "first_detect": 1,
+  "unsafe": 7,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "random"
+ },
+ {
+  "bug": 1,
+  "n": 300,
+  "mismatches": 30,
+  "first_detect": 15,
+  "unsafe": 5,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "guided"
+ },
+ {
+  "bug": 2,
+  "n": 300,
+  "mismatches": 41,
+  "first_detect": 1,
+  "unsafe": 19,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "random"
+ },
+ {
+  "bug": 2,
+  "n": 300,
+  "mismatches": 39,
+  "first_detect": 15,
+  "unsafe": 19,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "guided"
+ },
+ {
+  "bug": 3,
+  "n": 300,
+  "mismatches": 103,
+  "first_detect": 1,
+  "unsafe": 71,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "random"
+ },
+ {
+  "bug": 3,
+  "n": 300,
+  "mismatches": 103,
+  "first_detect": 2,
+  "unsafe": 76,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "guided"
+ },
+ {
+  "bug": 4,
+  "n": 300,
+  "mismatches": 31,
+  "first_detect": 1,
+  "unsafe": 7,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "random"
+ },
+ {
+  "bug": 4,
+  "n": 300,
+  "mismatches": 30,
+  "first_detect": 15,
+  "unsafe": 5,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "guided"
+ },
+ {
+  "bug": 5,
+  "n": 300,
+  "mismatches": 4,
+  "first_detect": 63,
+  "unsafe": 2,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "random"
+ },
+ {
+  "bug": 5,
+  "n": 300,
+  "mismatches": 1,
+  "first_detect": 159,
+  "unsafe": 2,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "guided"
+ },
+ {
+  "bug": 6,
+  "n": 300,
+  "mismatches": 0,
+  "first_detect": null,
+  "unsafe": 1,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "random"
+ },
+ {
+  "bug": 6,
+  "n": 300,
+  "mismatches": 0,
+  "first_detect": null,
+  "unsafe": 1,
+  "unsafe_golden": 1,
+  "cycles_per_inference": 279,
+  "set": "guided"
+ }
+]

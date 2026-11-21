@@ -1,0 +1,1 @@
+{"bug": 5, "n": 300, "mismatches": 4, "first_detect": 63, "unsafe": 2, "unsafe_golden": 1, "cycles_per_inference": 279}
