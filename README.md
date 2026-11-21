@@ -11,20 +11,20 @@ coverage and 6 injected bugs. BharatGen Param (or Codex) proposes new test scene
 the "hardware" is an RTL simulation, not a chip or FPGA. Proof of concept only, no ISO 26262 claim.
 
 ## Component status (fill in the last column yourself after you run each one)
-| Component | File | Verified by you? |
-|---|---|---|
-| Python network + INT8 quantization | python/model.py, export.py | |
-| Trained weights | python/weights.npz | |
-| INT8 hex weight files | tb/*.hex | |
-| Verilog 12-16-4 accelerator | rtl/autosafe_mac.v | |
-| cocotb testbench + bug injection | tb/test_autosafe.py | |
-| Random / guided scenarios | python/gen_scenarios.py | |
-| BharatGen integration | python/bharatgen_check.py | |
-| YOLOv8 camera detection | python/dashboard.py | |
-| Whisper voice command | python/voice.py | |
-| Live dashboard | python/dashboard.py | |
-| Yosys synthesis stats | yosys/run_yosys.sh | |
-| Quartus area / Fmax (optional) | quartus/run_quartus.sh | |
+| Component | File |
+|---|---|
+| Python network + INT8 quantization | python/model.py, export.py |
+| Trained weights | python/weights.npz |
+| INT8 hex weight files | tb/*.hex |
+| Verilog 12-16-4 accelerator | rtl/autosafe_mac.v | 
+| cocotb testbench + bug injection | tb/test_autosafe.py | 
+| Random / guided scenarios | python/gen_scenarios.py | 
+| BharatGen integration | python/bharatgen_check.py | 
+| YOLOv8 camera detection | python/dashboard.py | 
+| Whisper voice command | python/voice.py | 
+| Live dashboard | python/dashboard.py | 
+| Yosys synthesis stats | yosys/run_yosys.sh | 
+| Quartus area / Fmax (optional) | quartus/run_quartus.sh | 
 
 ## Setup (Linux, macOS or Windows WSL2; the webcam/mic demo is easier on native Windows/macOS Python, see note)
 ```
